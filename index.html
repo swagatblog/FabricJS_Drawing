@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>
+        FabricJS Drawing
+    </title>
+ 
+    <meta name="viewport" content="width=device-width" />
+   
+   <script src="fabric.js"></script>
+
+</head>
+<body onload="onload();">
+    <input type="button" value="start drawing" style="background-color: black; color: yellow;" onclick="onStartDrawing();" />
+    <input type="button" value="stop drawing" style="background-color: black; color: yellow;" onclick="onStopDrawing();" />
+    <input type="button" value="solid circle" style="background-color: black; color: yellow;" onclick="onSolidCircle();" />
+    <input type="button" value="solid rect" style="background-color: black; color: yellow;" onclick="onSolidRect();" />
+    <input type="button" value="zoom in" style="background-color: black; color: yellow;" onclick="onZoomIn();" />
+    <input type="button" value="zoom out" style="background-color: black; color: yellow;" onclick="onZoomOut();" />
+    <input type="button" value="reset zoom" style="background-color: black; color: yellow;" onclick="onResetZoom();" />
+    <canvas id="canvas" width="1000" height="800"></canvas>
+
+    <script src="core.js"></script>
+  
+</body>
+</html>
